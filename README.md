@@ -11,16 +11,15 @@ Purpose of the Program
 →This is a CSV to YouTube link converter which gives you exect version of songs from Spotify on YouTube with high accuracy.
 
 It:
-1. Takes a CSV file (e.g.,exported from exportify with song & artist columns).
+1. Takes a CSV file (e.g.,exported from "exportify".
 2. Searches YouTube for matching videos.
-3. Uses a Supabase database to cache previously found links (avoid re-searching).
+3. Uses a Supabase to cache previously found links (to avoid re-searching).
 4. Writes results back to a CSV (adds a YouTube Link column).
 5. Has controls to pause, stop, and limit requests to avoid hitting YouTube too often.
 
 ---
 CSV Processing
-Reads CSV into a DataFrame.
-Ensures YouTube Link column exists.
+Reads CSV,Ensures YouTube Link column exists.
 Iteractes over each row:
 1. Skips if already has a link.
 2. Skips if song/artist is missing.
@@ -34,7 +33,7 @@ Iteractes over each row:
 
 ---
 Request Control & Safety
-→ After X YouTube requests,script waits randomly to avoid being blocked.
+→ After "X" YouTube requests,script waits randomly to avoid being blocked.
 → Lets user change fetch limit in GUI.
 → If True, processing loop stops temporarily until resumed.
 → If True, processing loop ends early.
