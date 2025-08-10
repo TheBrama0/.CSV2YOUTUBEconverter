@@ -94,35 +94,25 @@ toggle_pause() → Switches between Pause/Resume.
 stop_and_save() → Stops loop after current iteration.
 
 ---
-7. Supabase Database Table Expected Fields
-Table: "fetched_links"
-song → Track name.
-artist → Artist name(s).
-youtube_link → Fetched YouTube URL.
-username → From local config.
-fetched_at → UTC timestamp.
-
----
 Flow of Program Execution
 1. Startup
-Loads .env for Supabase credentials.
+Loads Supabase credentials.
 Gets username from local config or asks user.
 Builds GUI.
-2. User Input
-Selects CSV.
+3. User Input Selects CSV.
 Sets delay & limits.
 Presses Start.
-3. Processing
+4. Processing
 Runs process_csv() in background thread.
 For each song:
 Checks Supabase for cached link.
 If missing, searches YouTube.
 Inserts into Supabase.
 Updates progress bar.
-4. Safety
+5. Safety
 Random sleep after certain number of YouTube requests.
 User can Pause, Resume, or Stop.
-5. Finish
+6. Finish
 Saves updated CSV with links.
 Shows completion popup.
 
