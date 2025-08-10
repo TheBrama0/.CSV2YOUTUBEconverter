@@ -4,12 +4,11 @@
 
 Contact
 Feel free to reach out to me on social media:
-- Instagram: [@the_brama]
+-Instagram: [@the_brama]
   
 ---
 Purpose of the Program
-
-This is a CSV → YouTube link converter which gives you exect version of songs from Spotify on YouTube with high accuracy.
+→This is a CSV to YouTube link converter which gives you exect version of songs from Spotify on YouTube with high accuracy.
 
 It:
 1. Takes a CSV file (e.g.,exported from exportify with song & artist columns).
