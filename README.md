@@ -1,6 +1,6 @@
 # .CSV2YOUTUBEconverter
 It uses CSV files from exportify for Spotify playlist info which which is then used to match youtube links accruately without using yt-dlp.
-- PROGRAM WILL ASK FOR USERNAME AT FIRST LAUNCH AND IT CAN BE ANYTHING THERE ARE NO RESTRICTIONS.
+- PROGRAM WILL ASK FOR USERNAME WHEN IT IS RUN FOR THE FIRST TIME AND IT CAN BE ANYTHING THERE ARE NO RESTRICTIONS.
 
 ## Contact
 
