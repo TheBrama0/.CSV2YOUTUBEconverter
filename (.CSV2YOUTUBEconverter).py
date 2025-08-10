@@ -286,7 +286,7 @@ def stop_and_save():
 
 # --- GUI Setup ---
 root = tk.Tk()
-root.title("YouTube Link Finder")
+root.title(".CSV2YOUTUBEconverter")
 
 # Get or request username on startup
 username = get_or_request_username(root)
@@ -345,3 +345,4 @@ btn_update_limit = tk.Button(fetch_limit_frame, text="Update Limit", command=upd
 btn_update_limit.pack(side=tk.LEFT, padx=5)
 
 root.mainloop()
+
