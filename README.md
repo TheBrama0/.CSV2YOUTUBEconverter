@@ -127,15 +127,6 @@ Saves updated CSV with links.
 Shows completion popup.
 
 ---
-Key Behavior Control Points
-Delay between searches → entry_delay value.
-Max number of links → entry_limit value.
-Pause/Resume → is_paused flag.
-Stop Early → stop_requested flag.
-YouTube search frequency control → fetch_limit & random cooldown.
-Supabase Caching → check_supabase() before get_first_youtube_result().
-
----
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND 
 NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
