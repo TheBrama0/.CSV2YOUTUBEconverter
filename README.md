@@ -36,8 +36,7 @@ Iteractes over each row:
 Request Control & Safety
 → After "X" YouTube requests,script waits randomly to avoid being blocked.
 → Lets user change fetch limit in GUI.
-→ If True, processing loop stops temporarily until resumed.
-→ If True, processing loop ends early.
+→ If True, processing loop stops temporarily until resumed. or processing loop ends early.
 
 ---
 GUI Controls
