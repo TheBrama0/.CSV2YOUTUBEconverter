@@ -12,7 +12,7 @@ Purpose of the Program
 →This is a CSV to YouTube link converter which gives you exect version of songs from Spotify on YouTube with high accuracy.
 
 It:
-1. Takes a CSV file (e.g.,exported from "exportify".
+1. Takes a CSV file (e.g.,exported from "exportify".)
 2. Searches YouTube for matching videos.
 3. Uses a Supabase to cache previously found links (to avoid re-searching).
 4. Writes results back to a CSV (adds a YouTube Link column).
