@@ -41,11 +41,11 @@ Request Control & Safety
 ---
 GUI Controls
 Elements:
-File selection.
-Delay between searches.
-Max links to fetch.
-Progress bar + label.
-Start, Pause/Resume, Stop & Save.
+File selection,
+Delay between searches,
+Max links to fetch,
+Progress bar + label,
+Start, Pause/Resume, Stop & Save,
 Fetch limit updater.
 
 ---
