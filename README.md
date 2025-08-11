@@ -29,7 +29,7 @@ Iteractes over each row:
 5. Inserts link into DataFrame.
 6. Updates progress bar & label.
 7. Pauses between requests.
-8. Every fetch_limit YouTube requests → random cooldown of 30–120 seconds.
+8. After a number of YT requests → random cooldown of 30–120 seconds.
 9. Saves updated CSV with _with_links suffix.
 
 ---
